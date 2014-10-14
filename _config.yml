@@ -3,19 +3,50 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: null
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : error454
+tagline: The Blog of a Compulsive Creator, Game Developer and Photographer.
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Zachary Burke
+
+contact:
+  email : zachary.burke@gmail.com
+  github : error454
+  twitter : error454
+
+# The search engine. Only support google custom search engine.
+#
+search : 
+  provider : gcse
+  
+  # Your Google custom search engine ID
+  #
+  gcse :
+    cx : 004607624929721912929:fphz8hgynkk
+
+# The way of excerpt. There are two options: "teaser" and "truncate_words".
+# "teaser" option: look for the More tag (<!--more-->) and create a teaser from the content that precedes the More tag.
+#                  You must place "<!--more-->" at paragraph in post. The whole content will be displayed in homepage if no More tag found in post.
+# "truncate_words" option: generate an excerpt automatically by selecting the first 20 words of the post. It doesn't work well in some of no-English post.
+#
+excerpt : truncate_words
+
+# The number of items displayed per page.
+#
+paginate : 5
+
+# The destination of the pagination pages
+#
+paginate_path : ":num"
+
+# Whether to enable load more post automatically in homepage. Set 'true' to enable. Set 'false' to disable.
+# You must click the 'load more' button to load more posts when it is set to 'false'.
+#
+auto_loadmore : true
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +56,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://error454.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -82,16 +113,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+      short_name : error454
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
