@@ -1,5 +1,14 @@
 ---
-published: false
+title: Packaging Unreal Engine Editor
+author: error454
+layout: post
+permalink: /2014-10-16-ue4-packaging/
+categories:
+  - UE4
+tags:
+  - UE4
+  - editor
+  - packaging
 ---
 
 ##Packaging Unreal Engine
