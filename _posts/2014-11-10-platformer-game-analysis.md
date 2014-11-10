@@ -46,16 +46,15 @@ On the other hand, not every function in here is a wrapper for `PlatformerGameMo
 
 ## PlatformerGameUserSettings ##
 This class handles applying and modifying settings in the game:
+
 * Sound volume
 * Fullscreen mode
 
-Of interest is the `UPROPERTY(config)` for the sound volume variable. 
-https://docs.unrealengine.com/latest/INT/Programming/Basics/ConfigurationFiles/index.html
+Of interest is the `UPROPERTY(config)` for the sound volume variable. [More docs](https://docs.unrealengine.com/latest/INT/Programming/Basics/ConfigurationFiles/index.html).
 
 ## PlatformerPlayerMovementComponent ##
-https://docs.unrealengine.com/latest/INT/Gameplay/Framework/Pawn/Character/index.html
 
-> The CharacterMovementComponent allows avatars not using rigid body physics to move by walking, running, jumping, flying, falling, and swimming. It is specific to Characters, and cannot be implemented by any other class. Properties that can be set in the CharacterMovementComponent include values for falling and walking friction, speeds for travel through air and water and across land, buoyancy, gravity scale, and the physics forces the Character can exert on Physics objects. The CharacterMovementComponent also includes root motion parameters that come from the animation and are already transformed in world space, ready for use by physics.
+> The [CharacterMovementComponent](https://docs.unrealengine.com/latest/INT/Gameplay/Framework/Pawn/Character/index.html) allows avatars not using rigid body physics to move by walking, running, jumping, flying, falling, and swimming. It is specific to Characters, and cannot be implemented by any other class. Properties that can be set in the CharacterMovementComponent include values for falling and walking friction, speeds for travel through air and water and across land, buoyancy, gravity scale, and the physics forces the Character can exert on Physics objects. The CharacterMovementComponent also includes root motion parameters that come from the animation and are already transformed in world space, ready for use by physics.
 
 The default CharacterMovementComponent is overriden in the `PlatformerCharacter` constructor. The main new things that I see this class doing are:
 
@@ -75,6 +74,7 @@ And new functionality for:
 
 ## PlatformerPlayerController ##
 Subclass of [APlayerController](https://docs.unrealengine.com/latest/INT/Gameplay/Framework/Controller/index.html):
+
 > The PlayerController implements functionality for taking the input data from the player and translating that into actions such as movement, using items, firing weapons, etc. These actions are generally passed on to other components of the system; most notably, the Pawn and Camera.
 
 Provides overrides for:
