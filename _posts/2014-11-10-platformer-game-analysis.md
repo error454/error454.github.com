@@ -58,15 +58,18 @@ https://docs.unrealengine.com/latest/INT/Gameplay/Framework/Pawn/Character/index
 > The CharacterMovementComponent allows avatars not using rigid body physics to move by walking, running, jumping, flying, falling, and swimming. It is specific to Characters, and cannot be implemented by any other class. Properties that can be set in the CharacterMovementComponent include values for falling and walking friction, speeds for travel through air and water and across land, buoyancy, gravity scale, and the physics forces the Character can exert on Physics objects. The CharacterMovementComponent also includes root motion parameters that come from the animation and are already transformed in world space, ready for use by physics.
 
 The default CharacterMovementComponent is overriden in the `PlatformerCharacter` constructor. The main new things that I see this class doing are:
+
 * Implement sliding - this includes functions to query the sliding state
 * Expose a bunch of variables to tune various aspects of the movement mechanics
 * Overriding StartFalling PhysWalking and ScaleInputAcceleration
 
 ## PlatformerPlayerCameraManager ##
 A subclass of `APlayerCameraManager` with an override for:
+
 * UpdateViewTargetInternal
 
 And new functionality for:
+
 * Setting a fixed camera Z offset
 * Settings/Getting camera zoom
 
@@ -75,17 +78,19 @@ Subclass of [APlayerController](https://docs.unrealengine.com/latest/INT/Gamepla
 > The PlayerController implements functionality for taking the input data from the player and translating that into actions such as movement, using items, firing weapons, etc. These actions are generally passed on to other components of the system; most notably, the Pawn and Camera.
 
 Provides overrides for:
+
 * PostInitializeComponents
     * Creates the in-game menu
 * SetupInputComponent
     * Binds the `InGameMenu` action to the public function `OnToggleInGameMenu()`
 
 Special functions:
+
 * Enables click and touch events
 * TryStartingGame() exposed to blueprints.
 * Toggle in game menu
 * Handle to an in-game menu
-* 
+
 In the constructor is where the custom Player Camera Manager is set:
 
 `PlayerCameraManagerClass = APlatformerPlayerCameraManager::StaticClass();`
