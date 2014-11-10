@@ -61,8 +61,8 @@ Found in FMath namespace
         //do stuff
     }
 
-# What is ACharacter? Why are there camera controls in there? #
-https://docs.unrealengine.com/latest/INT/API/Runtime/Engine/GameFramework/ACharacter/index.html
+# What is [ACharacter](https://docs.unrealengine.com/latest/INT/API/Runtime/Engine/GameFramework/ACharacter/index.html)? Why are there camera controls in there? #
+
 > Characters are Pawns that have a mesh, collision, and built-in movement logic. They are responsible for all physical interaction between the player or AI and the world, and also implement basic networking and input models. They are designed for a vertically-oriented player representation that can walk, jump, fly, and swim through the world using CharacterMovementComponent.
 
 There are camera controls in there because the example you're looking at (Top Down Camera) has added a camera and a camera boom to the character:
@@ -93,9 +93,7 @@ In the .cpp constructor:
 
     CollisionComp = PCIP.CreateDefaultSubobject<USphereComponent>(this, TEXT("SphereComp"));
 
-# What is a AGameMode? #
-https://docs.unrealengine.com/latest/INT/Gameplay/Framework/GameMode/index.html
-
+# What is a [AGameMode](https://docs.unrealengine.com/latest/INT/Gameplay/Framework/GameMode/index.html)? #
 > The AGameMode class defines the game being played, and enforces the game rules. Some of the default functionality in AGameMode includes:
 > 
 > Any new functions or variables that set game rules should be added in a subclass of the AGameMode class. Anything from what inventory items a player starts with or how many lives are available to time limits and the score needed to end the game belongs to GameMode. A subclass of the AGameMode class may be created for each gametype the game should include. A game may have any number of gametypes, and thus subclasses of the AGameMode class; however, only one gametype may be in use at any given time. A GameMode Actor is instantiated each time a level is initialized for play via the UGameEngine::LoadMap() function. The gametype this Actor defines will be used for the duration of the level.
@@ -103,9 +101,7 @@ https://docs.unrealengine.com/latest/INT/Gameplay/Framework/GameMode/index.html
 The Game Mode also sets the default pawn class and the player controller class.
 
 # How do I define an Enum in C++? #
-https://wiki.unrealengine.com/Enums_For_Both_C%2B%2B_and_BP
-
-Create a namespace with the enum in it, usually above your class so that others can see it:
+From [the wiki](https://wiki.unrealengine.com/Enums_For_Both_C%2B%2B_and_BP). Create a namespace with the enum in it, usually above your class so that others can see it:
 
     UENUM(BlueprintType)
     namespace EGameState
@@ -140,8 +136,7 @@ Functions:
     UFUNCTION(BlueprintNativeEvent, Category = "Tether")
 
 # Who spawns the default pawn and takes control of it? #
-The GameMode does, the interesting stuff is in GameMode.cpp in the function StartNewPlayer()
-https://github.com/EpicGames/UnrealEngine/blob/1d429763ca85bce5a9fc40e7a4848e4a00ac42a8/Engine/Source/Runtime/Engine/Private/GameMode.cpp#L1362
+The GameMode does, the interesting stuff is in GameMode.cpp in the function [StartNewPlayer()](https://github.com/EpicGames/UnrealEngine/blob/1d429763ca85bce5a9fc40e7a4848e4a00ac42a8/Engine/Source/Runtime/Engine/Private/GameMode.cpp#L1362)
 
 [RestartPlayer()](https://github.com/EpicGames/UnrealEngine/blob/1d429763ca85bce5a9fc40e7a4848e4a00ac42a8/Engine/Source/Runtime/Engine/Private/GameMode.cpp#L414) is where the magic happens. This code:
 
@@ -162,7 +157,7 @@ Becomes
     UCharacterContainer* me = NewObject<UCharacterContainer>();
 
 # Timers #
-https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/Timers/index.html
+[From the docs](https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/Timers/index.html).
 
 # How to override hit events in c++? #
 Following [this example](https://wiki.unrealengine.com/Reflecting_Projectile_C%2B%2B).
@@ -204,7 +199,9 @@ They are called every frame even if you have no gamepad connected. If you're sha
     }
 
 # PhysX #
+
 ## Rope Notes ##
+
 My rope is not behaving as expected. If I wrap the rope around an asteroid and try to pull, the simulation goes crazy with the asteroid translation jumping all over the place like vampire bill trying to rescue sookie from a dozen attackers.
 
 I noticed that the Unreal implementation uses PX6DOF joints for all joint types in Unreal. In my own physx implementation in another engine, I created this same simulation but using PXSphericalJoints instead and don't have these types of simulation jitters.
