@@ -25,7 +25,7 @@ Are you using Ares as your development environment?
 Are you frustrated because this menu doesn't exist in the list of Widgets?
 
 Read on for a full example of how to easily implement this widget along with how to tie in the functionality for the buttons.
-
+<!--more-->
 ## The viewMenu Widget
 
 <a href="http://developer.palm.com/index.php?option=com_content&view=article&id=1994&Itemid=328#.viewMenu" target="_blank">This</a> is a special widget that is not created in the same way that other widgets are.  There isn't a viewMenu UI Widget in the Palette to drag onto your scene.  The link above explains more details about this, what you need to know is that this menu is declared programatically.

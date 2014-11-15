@@ -17,7 +17,7 @@ tags:
 This is an attempt to replicate a Newton's Cradle device.
 
 <a href='https://dl.dropbox.com/u/7079101/shiva/newtonsCradle.html'><img src='{{ site.url }}/assets/uploads/2012/06/newtons.jpg?w=487' alt='a newton&apos;s cradle'></a>
-
+<!--more-->
 
 
 This is very similar to the rope sample provided by Stonetrip.  The ball bearings have spherical dynamics bodies and are attached to an anchor point on the ceiling.  The string is cosmetic only, it has no dynamics or anchor points.

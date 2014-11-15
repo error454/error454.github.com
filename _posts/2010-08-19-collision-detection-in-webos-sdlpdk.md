@@ -25,7 +25,7 @@ tags:
 > How to detect button presses you know not!
 > 
 > mMMmm, much to learn you still have!
-
+<!--more-->
 Collision detection isn't just for video games!  Imagine, your finger colliding with an image and then something epic happening.  This post is going to explore a simple way to detect when things collide.
 
 

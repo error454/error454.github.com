@@ -19,7 +19,7 @@ tags:
   - xml
 ---
 As we are nearing our first Steam release, we wanted to make a strong effort to localize our game in as many different languages as possible. This brought up an interesting problem involving workflow and tools that we've now solved and wanted to share. We wanted a solution that would allow:
-
+<!--more-->
 *   Multiple translators to work on a shared document at the same time
 *   Automated conversion from the spreadsheet to the XML files used by the game engine
 *   Easy usage inside the game engine

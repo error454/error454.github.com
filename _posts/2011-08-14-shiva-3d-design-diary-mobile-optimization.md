@@ -27,7 +27,7 @@ As we are narrowing in on the release of our game, we turned our attention on th
 We were having an issue with 1 scene in-particular where on the Touchpad, we were consistently dropping to 15 fps. For a dual core beast, this was bad.
 
 This article is partly about the debug process and highlights 3 areas we found where we gained performance.
-
+<!--more-->
 <h1 class="more">
   Finding the problem area
 </h1>

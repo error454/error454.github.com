@@ -21,7 +21,7 @@ tags:
 This article covers the basics of exported Android ShiVa projects.  If you are trying to integrate Java or C libraries, for instance the ScoreLoop API, the following information could come in handy.  I had to stumble through this process with the scattered bits of documentation and I get tired of re-learning it every time I start a new project.  The article assumes basic familiarity with Eclipse, Java, C, Android and JNI.
 
 Most of this content is based on the file that Stonetrip provides, on windows it is:
-
+<!--more-->
 <pre>
 C:\Program Files (x86)\Stonetrip\ShiVa Authoring Tool\Data\Windows\Windows\Build\S3D SDK - Readme.txt
 </pre>

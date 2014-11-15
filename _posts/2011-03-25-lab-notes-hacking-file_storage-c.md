@@ -18,7 +18,7 @@ tags:
 I made attempt 3 to use file\_storage.c as a means of presenting an ISO image on the Pre as a CD-ROM drive over USB.  I tried grabbing several of the more recent versions of file\_storage.c from git.kernel.org in an attempt to back-port them to the 2.6.24 kernel.
 
 I found the following:
-
+<!--more-->
 *   file_storage.c got CD-rom support in January of 2009:
 *   <pre>vermagic:       2.6.32-28-server SMP mod_unload modversions
 parm:           file:names of backing files or devices (array of charp)

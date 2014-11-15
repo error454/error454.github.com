@@ -21,7 +21,7 @@ tags:
 *   Capture with volume-key
 *   Shutter sound
 *   Self-Timer and Burst-Frames
-
+<!--more-->
 <del><strong>UPDATE: </strong>Did you come here wondering why the camera patch will not install?  Unfortunately, due to code ninjas, there are a few patches that this patch does not play well with  the video camera flashlight patch and a few naming patches.  I am looking into things and am beginning to form a solution that I hope will clean up the camera patch ecosystem.  Stay tuned.</del>
 
 Please leave comments below or twitter me if you have issues or a feature request for this patch.

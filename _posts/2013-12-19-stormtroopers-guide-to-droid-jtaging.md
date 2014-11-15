@@ -31,7 +31,7 @@ tags:
 You've done it!  You've finally found the droids you were looking for.  But hey, wait a minute, they don't even power on?!? How are you supposed to re-purpose them for your evil schemes and recover all those juicy princess holocrons?
 
 Buckle-up soldier! It's time to JTAG!
-
+<!--more-->
 ### What's JTAG?
 
 JTAG is a debugging interface that pretty much every CPU has on it, even droids!  Once you hook up, you can read/write to flash memory and change out those bad motivators!

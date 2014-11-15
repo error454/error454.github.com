@@ -18,7 +18,7 @@ tags:
 
 
 What are the consequences of a device whose mass storage driver is down-revved?  What dangers loom on the horizon for those that ignore these dangers?  It is these questions that I seek to answer through the use of two extremely realistic and likely scenarios.  
-
+<!--more-->
 
 ## Update!
 

@@ -20,7 +20,7 @@ tags:
 <a href='{{ site.url }}/assets/uploads/2014/01/Capture24.jpg'><img src='{{ site.url }}/assets/uploads/2014/01/Capture24-1024x576.jpg' alt='A picture of some cool cartoony 3D models (they look like the alien from bugs bunny) and they&apos;re shooting a totally ridiculous number of bullets all over the screen. I mean the number of bullets is TOTALLY ridiculously awesome!'></a>
 
 We made a 3D platformer with a constrained 2D view not long ago, obviously in our engine of choice, <a href="http://www.shivaengine.com" target="_blank">ShiVa</a>.  The main character fired a number of different ranged weapons and generally made a huge mess of some unfriendly boxes that were invading his planet.
-
+<!--more-->
 I faced a number of challenges when implementing the character running, aiming and shooting animations and I thought it would be useful to share my solutions for the next indie.  In this post is a web demo, you'll need to let your browser load the shiva plugin to see it.
 
 The primary topics that I'll discuss are:

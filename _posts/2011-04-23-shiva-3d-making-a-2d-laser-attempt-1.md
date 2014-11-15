@@ -21,7 +21,7 @@ We needed a laser for our WIP space schmup.  This solution seemed to be the mos
 ## How to Make a Laser
 
 **Step 1**. Model and texture a cube whose origin is the center of an edge face.
-
+<!--more-->
 <a href='{{ site.url }}/assets/uploads/2011/04/postit.jpg'><img src='{{ site.url }}/assets/uploads/2011/04/postit.jpg?w=300' alt=''></a>
 
 Above is the reference design I gave to my artist for this simple design.  It is important that the origin be on the edge to simplify the math involved.  It is unfortunate that ShiVa does not allow you to change the origin of shapes in the model view as it would have been trivial to make a cube and slap a texture on it.

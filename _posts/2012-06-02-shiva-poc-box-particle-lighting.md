@@ -19,7 +19,7 @@ I have started a new <a href="https://github.com/error454/ShiVa-Proof-Of-Concept
 <a href='https://dl.dropbox.com/u/7079101/shiva/boxParticleLighting.html'><img src='{{ site.url }}/assets/uploads/2012/06/boxparticle.jpg' alt=''></a>
 
 This demo is meant to test particle interaction with colliders along with a moving dynamic light source.
-
+<!--more-->
 
 
 ## Scene Setup

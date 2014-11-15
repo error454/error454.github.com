@@ -21,7 +21,7 @@ I discovered a new solution  that is incredibly cheap and easy with a few cavea
 
 *   You will not know which edge of the screen the object has passed (so it won't work for wrapping objects around on the screen)
 *   You only get one notification when the object moves beyond the camera (unless you setup a timer)
-
+<!--more-->
 
 
 ## How to Implement in 2 Steps

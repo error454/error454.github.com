@@ -18,7 +18,7 @@ tags:
 ## Reading Keyboard & Touch Events
 
 SDL provides everything we need to read keyboard input and screen taps.  There is only 1 new data type that hasn't been covered previously, <a href="http://sdl.beuc.net/sdl.wiki/SDL_Event" target="_blank">SDL_Event</a>, the SDL wiki says it best:
-
+<!--more-->
 > The SDL\_Event union is the core to all event handling in SDL; it's probably the most important structure after SDL\_Surface.
 
 What we are about to do here is lay down the skeleton for event processing, the loop that keeps the app running, responds to input and displays output.  If you have an engineering background in feedback and control systems, we are about to define our transfer functions.  SDL_Event is a key player here since it allows us to get keyboard and tap events.

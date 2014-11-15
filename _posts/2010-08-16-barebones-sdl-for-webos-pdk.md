@@ -18,7 +18,7 @@ This article covers creating barebones SDL apps for the WebOS PDK.  The followi
 
 *   How to write a minimalist SDL app
 *   How to set screen resolution based on device
-
+<!--more-->
 
 
 Ok, let's dust off those C skills and get to work.  First, of course, you need to setup your environment.  The Palm folks did such a good job explaining <a href="http://developer.palm.com/index.php?option=com_content&view=article&id=1974&Itemid=336" target="_blank">how to setup your development environment</a> that I would be silly to try any better.  This tutorial is written from a windows-centric perspective, I love my Mac friends too, I just don't have the privilege of owning one!

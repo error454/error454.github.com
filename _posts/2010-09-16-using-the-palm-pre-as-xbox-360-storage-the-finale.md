@@ -24,7 +24,7 @@ tags:
 <a href=''><img src='{{ site.url }}/assets/uploads/2010/09/booyah.png' alt=''></a>
 
 15 days ago, I set out to determine why I couldn't use my Palm Pre on my Xbox 360.  We all start somewhere, but I started with absolutely no knowledge of the composite gadget framework or Palm's rockhopper composite driver.  In retrospect, I spent a lot of time asking silly questions and researching irrelevant things.  But once again I have been awarded for persistence, while picking up some great knowledge and tools for the future.
-
+<!--more-->
 For the last 2 days, I have relished the joy of discovery.  Truth be told, this problem was solved 2 years ago by one Felipe Balbi on the linux-usb mailing list.  The next logical question is why the problem exists on so many devices if it was fixed 2 years ago?  Am I really the first person to discover this problem and solution and actually care enough to try and get it fixed on Palm and Android devices?
 
 Read on as I reveal all that I know. (Palm users can skip to the good stuff by grabbing the latest UberKernel release and plugging in to their Xbox 360)

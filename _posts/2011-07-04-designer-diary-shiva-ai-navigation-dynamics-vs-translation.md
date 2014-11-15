@@ -30,7 +30,7 @@ tags:
 
 
 We got to the point where we wanted to start moving the mothership around, again using a setTranslation model meant that we had to figure out equations to get it to a specific location on screen.  We did learn a lot about splines and I was happy that Shiva accomodated us on our fools errand by providing functions to evaluate BSpline, Bezier and CatmullRom.
-
+<!--more-->
 I call this translation model the Infinite Momentum Model because we were trying to use the dynamics system for collisions, but as you can guess, setting a translation every frame completely breaks the collision system.  For collisions to work, the dynamics system needs the opportunity to allow the results of the collision to take place. By setting translation every frame, you are overriding the result of the collision as if your object had infinite momentum.
 
 In game, this manifested itself by drone ships colliding with and pushing planets off the screen. . . Our model was clearly broken for a few reasons:

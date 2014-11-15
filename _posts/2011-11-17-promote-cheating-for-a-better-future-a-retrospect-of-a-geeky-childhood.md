@@ -17,7 +17,7 @@ tags:
 ---
 <img class="alignleft" title="game_genie" src="{{ site.url }}/assets/uploads/2011/10/game_genie.png" alt="" width="298" height="240" />  
 I recently turned 0b100000, on this momentous transition from my 5th to 6th bit, I took some time to reflect back on how I got where I am today.  Of all the events in my life that affected the direction I went, the desire to cheat stands alone as having an overwhelmingly positive impact.
-
+<!--more-->
 
 
 ## The Year 1991

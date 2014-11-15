@@ -19,7 +19,7 @@ tags:
 <script src="http://cdn.stonetrip.com/players/stkobject.js" type="text/javascript"></script>
 
 There are tons of tutorials out there on doing platformer physics and <a href="http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/" target="_blank">implementing various types of platformers</a>.  What there seems to be lacking is a tutorial on how to choose good values for your platformer physics.
-
+<!--more-->
 This article will present some core physics equations in a new light!  I will even be so bold as to christen these equations as The Fundamental Equations of Platformers.  The sample code here is presented in LUA and for my prototyping I am using the ShiVa 3D game engine.
 
 

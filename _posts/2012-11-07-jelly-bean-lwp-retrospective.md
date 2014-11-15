@@ -21,7 +21,7 @@ tags:
   - wallpaper
 ---
 My brother and I have been working on a game for the upcoming OUYA console.  We got a little burnt out on a particular design issue and needed a breather, a small fun project to lift our spirits.  So we decided to try our hand at a Live Wallpaper for Android.  1 week later and here we are.
-
+<!--more-->
 
 
 Coming into this project, I knew it would be challenging, there were many things I had never touched before.  As always with programming, much of your success comes from standing on the shoulders of others.  This project was an exemplary example of that.

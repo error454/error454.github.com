@@ -18,7 +18,7 @@ Dear Diary,
 A little over 3 months ago, my brother and I were sitting around the man-cave throwing ideas around.  We were strongly impressed by the concept of a game like Angry Birds only in outer space where orbital physics would be used to slingshot projectiles around planets.  After much sleep deprivation, school-girl giddiness and white-board scribblings, we embarked on the journey of indie game development.
 
 I've always wanted to make video games, my code-closet can attest that I'm great at starting them and chronically horrible at finding the motivation to finish them.  For the first time though, I am not alone in this effort.  So far this has been one of the most challenging and enjoyable projects of my life.
-
+<!--more-->
 At times it feels like the project will never end, sometimes it even feels like we make negative progress, but bit-by-byte it is starting to look like an actual game.  I only hope that when finished that it's half-as-fun as our original vision.
 
 ## Scheduling Life & Indie Games

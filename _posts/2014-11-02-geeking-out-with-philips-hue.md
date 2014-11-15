@@ -19,6 +19,7 @@ I use an OUYA to power my XBMC experience in my theater room. My primary desire 
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/JojJ61P0Td0" frameborder="0" allowfullscreen></iframe>
 
+<!--more-->
 This solution is working at about 95%, there are still some edge case bugs to fix where sometimes I lose connection with XBMC. I'm leveraging a few open source projects to accomplish this:
 
 * [phue](https://github.com/studioimaginaire/phue) is a python library for Philips Hue

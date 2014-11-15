@@ -17,7 +17,7 @@ tags:
   - xbox
 ---
 <img class="alignleft size-full wp-image-491" src="{{ site.url }}/assets/uploads/2010/09/usb.jpg" alt="" width="71" height="107" />I have a dream where I plug my Palm Pre into my Xbox 360 and it is recognized as a USB Mass Storage device.  I then save all my games and downloaded content to it.  Later, I fire up a PDK app that loads <a href="http://code.google.com/p/x360/" target="_blank">x360</a> (A FUSE filesystem driver for the 360) and I edit my saved games, adding more health, more gold, etc.
-
+<!--more-->
 What would it take for a USB newb to turn this into a reality?  I'm not sure, but I am willing to try.
 
 ## Spoofing Vendor/Product ID

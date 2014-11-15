@@ -13,7 +13,7 @@ tags:
 With the newly released <a href="http://www.shivaengine.com/what-is-shiva-3d.html" target="_blank">ShiVa 1.9.2 Game Engine</a> came a bunch of new API calls.  Not all of these calls have been documented, until now!  Head over to my <a href="https://github.com/error454/Shiva-Missing-Docs" target="_blank">github repo</a> for a comprehensive list of new API calls that showed up between 1.9.1 and 1.9.2.
 
 The biggest highlights in my mind are.
-
+<!--more-->
 ## Average Frame Time
 
 <pre>application.setUseAverageFrameTime ( bUse )</pre>

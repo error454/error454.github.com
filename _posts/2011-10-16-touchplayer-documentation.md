@@ -36,7 +36,7 @@ tags:
 
 
 # How to Get TouchPlayer
-
+<!--more-->
 TouchPlayer is distributed through a private feed, you need to add it (mobilecoder.touchpadhp.info/mcfeed) so that TouchPlayer will show up in Preware.  Alternatively, if you know what you are doing, you can download the ipk directly (http://mobilecoder.touchpadhp.info/touchplayer/)
 
 Directions for Preware

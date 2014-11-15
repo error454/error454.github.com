@@ -35,7 +35,7 @@ I was recently going through the Blackberry developer forums and stumbled across
 It's possible that the app in question wasn't any good and the loss of sales had nothing to do with the comment. . . but, for the sake of this article, I am siding with the developer because when it comes right down to it, app stores kind of suck.
 
 Get the Tide out because it's time to air some dirty laundry.
-
+<!--more-->
 
 
 The scenario I described above was on the Blackberry App World, but it highlights something that is wrong with ALL app markets in existence.  This includes Apple, Google, HP and Amazon.

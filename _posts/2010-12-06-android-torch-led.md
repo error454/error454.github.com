@@ -18,7 +18,7 @@ tags:
 
     
 Many Android devices have an LED next to the camera lens that can be used as a flash.  I've been doing some research on the so-called Torch mode of this LED.  Torch mode simply turns the LED on and leaves it on as opposed to temporarily flashing the LED during a photo.I'm sure everyone has seen the flashlight apps that do just this. I am looking at possible scenarios where the torch could help with image analysis.  A secondary goal is to have the LED light enabled automatically based on measurable conditions.
-
+<!--more-->
 
 
 # The Torch API

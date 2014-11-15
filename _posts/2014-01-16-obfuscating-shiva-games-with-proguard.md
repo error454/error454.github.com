@@ -15,7 +15,7 @@ tags:
 <a href='{{ site.url }}/assets/uploads/2014/01/IMG_1724.jpg'><img src='{{ site.url }}/assets/uploads/2014/01/IMG_1724-300x300.jpg' alt='Hiding in plain site'></a>
 
 If you are worried about people hacking your ShiVa based game then obfuscation is a good place to start.  Obfuscation is very simple to implement in your Android project and is a good starting point for anti-hacking measures.
-
+<!--more-->
 Nothing will stop a truly determined and experienced hacker, period.  If you rate the skill of hackers from 1-10, you might think of obfuscation as preventing those of skill 5 or less.  When it comes to fighting people that are decompiling your code, you won't win all the time.  Obfuscation is easy to implement and makes a confusing mess of your code, so it's a great low-effort way to prevent the script-kiddies from screwing with your purchase code.
 
 To successfully work with obfuscation, this tutorial will show you:

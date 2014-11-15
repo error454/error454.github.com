@@ -14,7 +14,7 @@ This is the 10-minute reference that I was looking for when I started using Ares
 *   UI Basics
 *   Widget Fundamentals
 *   Using Widgets the Ares Way
-
+<!--more-->
 
 
 ## UI Basics

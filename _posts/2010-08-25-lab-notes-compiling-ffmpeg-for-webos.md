@@ -18,7 +18,7 @@ tags:
   - webos
 ---
 <img class="size-full wp-image-429 alignleft" title="vlc" src="{{ site.url }}/assets/uploads/2010/08/vlc.png" alt="" width="102" height="102" />It is a dream of many to have VLC running on WebOS.  I thought that with the release of the PDK, I would start exploring this.  Since VLC uses many of the codecs provided by ffmpeg's libavcodec library, it made sense to start by compiling this library and verifying basic functionality.
-
+<!--more-->
 In the end, I got ffplay to play a video on WebOS using libavcodec, the result was anti-climactic for large videos due to the lack of HW acceleration, one of the Palm PDK guys, unwiredBen provided <a href="http://developer.palm.com/distribution/viewtopic.php?sid=4ac3c9894ea8400e04ae978200205a51&lastaction=login&f=70&t=8505" target="_blank">information for further research</a>.  Overall, performance for smaller files is acceptable, and the ability to grab rtsp streams could lead to many applications.  The lab notes are below.
 
 

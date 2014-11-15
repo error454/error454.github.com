@@ -20,7 +20,7 @@ There are a couple different ways to do keyboard and joystick handling in ShiVa.
 Here is the traditional way of handling input in ShiVa:
 
 <a href=''><img src='{{ site.url }}/assets/uploads/2012/10/traditionalkeyboardhandling-3.png' alt=''></a>
-
+<!--more-->
 The pros of this implementation are:
 
 1.  Easy to understand for even the most casual observer

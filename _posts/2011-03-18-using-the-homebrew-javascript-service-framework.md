@@ -19,7 +19,7 @@ tags:
 <a href=''><img src='{{ site.url }}/assets/uploads/2011/03/out-of-jail.jpg' alt=''></a>
 
 WebOS 2.x allows us to create services using node.js.  Services are great, but by default they run in a jail that prevents them from accessing the entire device.  For many services this is fine because there is no need to do anything outside of this jail.  On the other hand, there are some services that are only useful if they have root access.  To obtain root access, these services can use Jason Robitaille's <a id="project_summary_link" href="http://code.google.com/p/homebrew-js-service-framework/">Homebrew Javascript Service Framework for webOS</a>, hereto referred to as HJSF.
-
+<!--more-->
 This article is going to explore the essential configuration requirements and validation steps for using HJSF in a node.js service.
 
 

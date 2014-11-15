@@ -18,7 +18,7 @@ tags:
 If you are an aspiring game developer, you might have considered whether a game engine is right for you.  There are a lot of game engines out there and I'm not going to try and compare the qualities of Unreal Engine vs Unity vs Shiva.
 
 Maybe you're like me and have rolled some subset of your own 2D or 3D engine in the past using SDL, openGL or XNA.  If you're also like me, you probably have about a half-dozen or so projects that have been shelved because you either stopped having fun, got frustrated at one of the minutia of tiny details or realized that you did things horribly wrong.  Sounding familiar?
-
+<!--more-->
 When I have a game idea that I'd like to prototype, what I find most deflating is spending all of my time remembering how to initialize the screen, import textures, draw textured quads, etc.  I want to work on MY idea instead of recreating science.
 
 ## Why <a href="stonetrip.com" target="_blank">Shiva</a>?

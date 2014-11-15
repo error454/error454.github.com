@@ -14,7 +14,7 @@ tags:
 
 A simple app to view all of the HUD Interpolators for the ShiVa HUD system, i.e. the constants:  
 <a href="http://www.stonetrip.com/developer/doc/api/hud-kInterpolatorTypeLinear" target="_blank">hud.kInterpolatorTypeLinear</a>
-
+<!--more-->
 
 
 <script  language="javascript" type="text/javascript">

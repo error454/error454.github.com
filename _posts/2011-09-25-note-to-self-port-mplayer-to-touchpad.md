@@ -25,7 +25,7 @@ tags:
 ---
 <img class="alignleft size-full wp-image-931" title="TouchPlayer - the video player for total badasses" src="{{ site.url }}/assets/uploads/2011/08/applications-multimedia.png" alt="" width="120" height="120" />I have been working on porting mplayer over to the Touchpad.  When I work on projects, I write a note to myself at the end of the day to remember where I left off.  This is a copy of those notes.
 
-
+<!--more-->
 
 **1:15 AM 11/6/2011**
 

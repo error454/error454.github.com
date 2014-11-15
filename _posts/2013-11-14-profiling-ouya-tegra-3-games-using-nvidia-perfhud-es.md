@@ -17,7 +17,7 @@ tags:
   - tegra
 ---
 PerfHUD ES has a good <a href="http://docs.nvidia.com/tegra/index.html#PerfHUD_ES_User_Guide.html" target="_blank">online manual</a> that I'm not trying to replicate.  The manual explains the UI, graphs and knobs. The purpose of this article is to introduce the tool to people that aren't aware of it as well as to provide more details behind the *directed tests* section.  Specifically, how to make your game faster based on the results you get from the directed tests.
-
+<!--more-->
 <img src='{{ site.url }}/assets/uploads/2013/11/perfhud.png' alt='Developing on Tegra and not using perfHUD ES is like eating a french dip sandwich with no sandwich.'>
 
 To enable perfhud, in a shell run:

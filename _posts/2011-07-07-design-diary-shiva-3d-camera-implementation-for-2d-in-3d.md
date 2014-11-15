@@ -27,7 +27,7 @@ I will cover:
 <img src='' alt=''>
 
 ## 2D in 3D Camera Basics
-
+<!--more-->
 ### Field of View
 
 One of the first things you should consider for your camera that is often overlooked is your field of view (fov). If you take the defaults, you will be set to 35mm. Here's why this is important, the higher your FOV is, the more distorted objects will be that are on the edge of the screen.

@@ -21,7 +21,7 @@ The largest difference in the 3 sensor handlers are the circumstances under whic
 *   **onSensorCollision**  Called on every frame as long as sensors are colliding.
 *   **onSensorCollisionBegin**  Called every frame that sensors are colliding as long as they weren't colliding the previous frame.
 *   **onSensorCollisionEnd**  Called every frame that sensors are not colliding as long as they were colliding the previous frame.
-
+<!--more-->
 You may be thinking, *yeah dude I already know all of this* but what you might not know is the minimum performance impact that these sensor handlers impose.
 
   

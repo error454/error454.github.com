@@ -26,7 +26,7 @@ If you were to look at the following drawing, you might think it to be the doodl
 <a href=''><img src='{{ site.url }}/assets/uploads/2011/01/sketch.png' alt=''></a>
 
 As an artist, I have clearly failed.  But where artistry has failed, geekery has prevailed.  Even with my lack of artistic ability, I am able to take the previous sketch and turn it into the below image:
-
+<!--more-->
 
 
 <img src='{{ site.url }}/assets/uploads/2011/01/dragon-final-copy.png' alt=''>

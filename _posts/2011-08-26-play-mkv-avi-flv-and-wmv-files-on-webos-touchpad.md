@@ -20,7 +20,7 @@ tags:
 <img class="alignleft size-full wp-image-931" title="TouchPlayer - the video player for total badasses" src="{{ site.url }}/assets/uploads/2011/08/applications-multimedia.png" alt="" width="120" height="120" />
 
 This article is no longer maintained, please see [TouchPlayer Documentation][1].
-
+<!--more-->
 One thing the touchpad clearly lacks is the number of supported video formats available. Out of the box, the mp4 container with h.264 codec is pretty much it.  If all of your videos are in this format already, you can benefit from the hardware acceleration that the stock video player provides for this codec.
 
 If you want to play any other format, you have a few options:

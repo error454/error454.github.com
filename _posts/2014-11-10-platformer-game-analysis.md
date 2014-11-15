@@ -25,6 +25,7 @@ My journal from the disection of the platformer game sample.
 
 ## PlatformerBlueprintLibrary ##
 This code is basically a huge set of wrappers to expose functions that live in `PlatformerGameMode` to blueprints. Not all of the exposed functions are a 1:1 mapping. For instance the FinishRace function, notice that there isn't a 1:1 function to call, instead it finishes the round and then asks if the round was won:
+<!--more-->
 
     bool UPlatformerBlueprintLibrary::FinishRace(class UObject* WorldContextObject)
     {

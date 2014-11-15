@@ -17,7 +17,7 @@ tags:
 <img src='{{ site.url }}/assets/uploads/2012/08/gone.jpg' alt=''>
 
 Sometimes you encounter issues on Android that seem so blatantly simple, you can't imagine that you are the first person to have hit them.  This seemed like a simple case where my TextView items were not being rendered sometimes when I scrolled my ListView.
-
+<!--more-->
 
 
 ## Stackoverflow to the Rescue

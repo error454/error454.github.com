@@ -19,7 +19,7 @@ tags:
 <img src='{{ site.url }}/assets/uploads/2013/12/bsantos_Empty_Box_Thinking-copy.png' alt='Once the awesome box has been opened, it cannot be closed...'>
 
 I've been playing around in perfHUD ES **a lot** lately profiling OUYA performance.  One of the cool features it provides is the ability to look at and replace shaders on the fly.  I thought this was a great opportunity to investigate how costly various shaders are.
-
+<!--more-->
 If you're only here for the graphs, scroll to the end.  If you'd like a little GPU 101 to help interpret the graphs, then read on.
 
 WARNING! This topic is a total Pandora's box of awesomeness and potential confusion!  I'm going to do my best to help you assimilate some of the industry knowledge behind GPU performance in this article in a way that's hopefully useful to you as a game developer.

@@ -19,7 +19,7 @@ tags:
 Half of making a game is drawing the images to the screen, it's not too late to enter into the PDK contest folks!  Thankfully, drawing an image is simple with the functions provided by SDL_image.h.
 
 <a href=''><img src='{{ site.url }}/assets/uploads/2010/08/sdlcap.jpg' alt=''></a>
-
+<!--more-->
 
 
 Coincidently, you will need to add SDL_image.lib to your dependencies (or a pragma) for this to run on the desktop.  Before drawing an image, we first need to load it.  All images in SDL are of type SDL_Surface, this should look familiar because our screen object is also a surface, it just happens to be the surface that we draw everything else on to.

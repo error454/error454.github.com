@@ -28,7 +28,7 @@ tags:
       <p>
         First I wanted to use the Palm Pre as a mass storage device on my Xbox 360.  The unraveling of that rabbit-hole took a full month.  Now I want to be able to create and mount regular files as USB devices on the Palm Pre (an app I'm calling USB Mass Storage Tool).  This time I am hitting a technical limitation imposed by Palm.
       </p>
-      
+      <!--more-->
       <p>
         The current limitation is that sysfs is not available for applications to read/write from within the jailed environment in which apps run.</td> </tr> </tbody> </table> <h2>
           The Need

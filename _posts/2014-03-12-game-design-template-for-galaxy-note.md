@@ -14,7 +14,7 @@ tags:
 As a game developer, I love the Note 3. It has taken the place of my small moleskin notebook.
 
 The included S Note app includes many templates, but you can also create your own. Here is the Gamestorming template I've made and an example of how I use it.
-
+<!--more-->
 Click to download the full size png.
 <a href='{{ site.url }}/assets/uploads/2014/02/gamedev-template-copy.png'><img src='{{ site.url }}/assets/uploads/2014/02/gamedev-template-copy-168x300.png' alt='My gamestorming template. Feel free to click and download the full-size png!'></a>
 

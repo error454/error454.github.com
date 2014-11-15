@@ -35,7 +35,7 @@ July 2, 2014  Added more cloth tearing info and cloth scale section.
 June 29, 2014  First entry
 
 > Dear Zach, In case of time machine, read this before you start implementing the PhysX SDK. Sincerely, Zach
-
+<!--more-->
 # Getting Error Messages & Feedback
 
 There are 2 things that would have saved me a few weeks of work had I enabled them from the start.

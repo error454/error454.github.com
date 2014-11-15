@@ -18,7 +18,7 @@ tags:
 ## What is this?
 
 This is an open source project that I've started to help ShiVa developers get the latest/greatest Android SDK implementations.  The goal for this project is to be a single Android project that contains the implementations for any Android SDK that you could possibly care about.
-
+<!--more-->
 There are 2 pieces to this project.  The Android code is where the SDK implementations live as combinations of Java and JNI (for interacting with ShiVa).  The ShiVa project is where SDK specific AI implementations go.  So for every SDK implemented, there is an associated ShiVa AI model that exposes the functionality needed to use the SDK from inside ShiVa.
 
 ## Why did I make it?

@@ -19,6 +19,7 @@ My dumpster of random questions and answers for UE4.
 
 # UPROPERTY "Missing variable type" #
 If you get the error *Missing variable type* on your UPROPERTY line, it's probably because you've put a semicolon at the end of the line.
+<!--more-->
 
 **WRONG**
 
@@ -214,3 +215,15 @@ By disabling rope physics collisions and enabling substepping (5 at 0.00666) wit
 
 ## How to start physx visual debugger? ##
 Run `pvd connect/disconnect` in the console
+
+# Fixed Axis Mode #
+To update fixed axis mode, you need to call the initializer:
+
+    CollisionComp->BodyInstance.LockedAxisMode = ELockedAxis::Y;
+    CollisionComp->BodyInstance.CreateDOFLock();
+
+There is a patch coming in 4.6 possibly that will change this to:
+
+    CollisionComp->BodyInstance.SetLockedAxis(ELockedAxis::Y);
+
+It's also interesting to note that the DOF lock is nothing more than a physics constraint, not some special physics engine setting or state.

@@ -16,7 +16,7 @@ tags:
 I finally got around to a little proof of concept for a 2D platform type game.  This PoC is really part tool and part test.  The idea was to test out a design for a 2D platformer that uses the dynamics engine and to make a tool to tweak  physics parameters to dial-in the correct feel.  In the end I don't think I'll go forward with this particular implementation.  This project has brought to mind several issues that one might encounter when using the dynamics system for platformer physics.
 
 <a href='https://dl.dropbox.com/u/7079101/shiva/jumpMan.html'><img src='{{ site.url }}/assets/uploads/2012/06/jumpman.jpg' alt=''></a>
-
+<!--more-->
 I now think that using the dynamics system for a serious 2D platformer is probably the wrong approach.  The first problem is that you don't have fine-grain control over jump-mechanics.   For instance it isn't possible to easily define a way to make your hero  jump exactly 3 game units high. I still haven't entirely solved the (working perfectly/not working at all)  <a href="http://www.stonetrip.com/developer/forum/viewtopic.php?f=13&t=26018" target="_blank">moving platform problem</a> either.
 
 

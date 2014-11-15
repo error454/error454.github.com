@@ -16,7 +16,7 @@ tags:
 Most ShiVa games have a single STK pack file. The reason why is because it's easy to hit the export button and dump everything into one giant file when you publish. On many PC platforms like Desura and Steam, the client does a proper diff and then only downloads chunks of files that are different than what he already has.  In Rage Runner, our pack file is about 250 MB. In an update where the only thing we've changed is 2 kb of XML, the player still has to download the entire 250 MB pack!
 
 This is obviously wasteful. In this tutorial I am going to detail:
-
+<!--more-->
 *   How to create STK files that contain your content
 *   How to use STK files in your game
 *   How to integrate this into your editor workflow

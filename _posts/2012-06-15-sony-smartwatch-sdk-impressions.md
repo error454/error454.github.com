@@ -18,7 +18,7 @@ tags:
   - watch
 ---
 I recently received a Sony Smartwatch as part of <a href="http://developer.sonymobile.com/wp/smartwatch-developer-campaign/" target="_blank">Sony's promotion</a>.  I haven't been this excited about a watch since I was rocking my Casio Calculator Watch back in 2nd grade.
-
+<!--more-->
 Unlike many SDKs, my first impression when peaking inside the Smart Extensions SDK was that Sony actually has android developers employed!  This excited me since many SDKs feel like Android is a 2nd thought entirely.  Overall the SDK is fairly straight-forward in that reading accelerometer data, getting screen tap coordinates and drawing to the screen are all simple tasks with well commented sample projects.
 
 There were a couple features that I thought were missing and that felt foreign:

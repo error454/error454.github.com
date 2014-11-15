@@ -14,7 +14,7 @@ tags:
   - xbox 360
 ---
 <a href='http://www.usb.org/developers/devclass_docs/usb_msc_cbi_1.1.pdf'><img src='{{ site.url }}/assets/uploads/2010/09/usb.jpg' alt=''></a>
-
+<!--more-->
 <pre>Configuration Descriptor:
     bLength                 9
     bDescriptorType         2

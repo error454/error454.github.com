@@ -25,7 +25,7 @@ We knew that our scenes would consist of Models, Scenery and Particles.  We ass
 *   30% Models
 *   65% Scenery
 *   5% SFX
-
+<!--more-->
 ### Step 2. Benchmark the low-end target
 
 The Palm Pre was the low-end device that we wanted to target.  If we could find the number of vertices that this device could handle while maintaining 30 fps, we'd have all we need.  I wrote a simple benchmark in Shiva to do this, see below if you'd like to download the package.

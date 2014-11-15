@@ -13,7 +13,7 @@ If you ever need to sort a table of numbers in shiva, I adapted this <a href="ht
 
 {% gist error454/8928424 %}
 
-
+<!--more-->
 
 The following code:
 
