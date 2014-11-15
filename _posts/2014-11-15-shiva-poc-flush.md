@@ -15,7 +15,7 @@ I needed to free up some disk space so I started going through my project folder
 
 In my cleaning frenzy, I stumbled upon 11 old shiva projects that sit somewhere between junk and repo status. So I figured, why not release them to the world for dissection, study and ridicule :) These are raw proofs of concept, so expect the code to be fast and loose!
 
-The 11 projects can be found in my POC repository, here is a brief introduction to each of these awkward unfinished things.
+The 11 projects can be [found in my POC repository](https://github.com/error454/ShiVa-Proof-Of-Concept), here is a brief introduction to each of these awkward unfinished things.
 
 ## hello-space-invaders ##
 <img src='{{ site.url }}/assets/uploads/2014/11/hellospace.jpg' alt='Space Invaders'>
