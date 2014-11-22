@@ -1,5 +1,5 @@
 ---
-title: Gamedev Barbie
+title: GameDev Barbie
 author: error454
 layout: post
 permalink: /2014/11/22/gamedev/barbie
