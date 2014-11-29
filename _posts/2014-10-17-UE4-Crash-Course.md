@@ -14,7 +14,7 @@ My dumpster of random questions and answers for UE4.
 
 Let's say you have a blueprint and you want to get access to the particle system and the audio file sub-components.
  
-<img src='{{ site.url }}/assets/uploads/2014/11/blueprintea.jpg'>
+<img src='{{ site.url }}/assets/uploads/2014/11/blueprintea.JPG'>
 
 What do you do?
 <!--more-->
