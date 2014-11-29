@@ -12,6 +12,50 @@ tags:
 
 My dumpster of random questions and answers for UE4.
 
+Let's say you have a blueprint and you want to get access to the particle system and the audio file sub-components.
+ 
+<img src='{{ site.url }}/assets/uploads/2014/11/blueprintea.jpg'>
+
+What do you do?
+<!--more-->
+
+Here's what I've been doing. In the .h file of my actor:
+
+    UParticleSystemComponent* JetpackParticle;
+    UAudioComponent* JetpackSound;
+
+In the BeginPlay callback:
+
+    // Get all the particles in this actor, find the named instances.
+    TArray<UParticleSystemComponent*> particles;
+	GetComponents(particles);
+	for (UParticleSystemComponent* particle : particles)
+	{
+		if (particle->GetName().Equals("Jetpack"))
+		{
+			JetpackParticle = particle;
+			JetpackParticle->SetHiddenInGame(true);
+			break;
+		}
+	}
+
+    // Get all the sounds in this actor, find the named instances
+	TArray<UAudioComponent*> sounds;
+	GetComponents(sounds);
+	for (UAudioComponent* sound : sounds)
+	{
+		if (sound->GetName().Equals("JetpackSound"))
+		{
+			JetpackSound = sound;
+			break;
+		}
+	}
+
+Finally at the end of BeginPlay, do a sanity check to make sure we don't have dangling pointers:
+
+    check(JetpackParticle);
+	check(JetpackSound);
+
 # Logging to the Screen #
 
     GEngine->AddOnScreenDebugMessage(-1, -1, FColor::Red, FString::SanitizeFloat(Val));
