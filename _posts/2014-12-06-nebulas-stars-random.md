@@ -115,6 +115,7 @@ A cloud of ionized gas that emits light of various colors. 1 or more nearby star
 
 ### Most Common Gas Types ###
 90% Hydrogen
+
 10% (Helium, Oxygen, Nitrogen)
 
 ### Color ###
@@ -127,8 +128,11 @@ Since emission nebulas are composed mostly of hydrogen, we can use the Balmer (n
 These are wavelengths in nm:
 
 Red (H-Alpha): 656.3
+
 Aqua (H-Beta): 486.1
+
 Violet (H-Gamma) 434.1
+
 Violet (H-Delta) 410.2
 
 Converting these wavelengths to RGB using [this code](https://gist.github.com/error454/a97b9947f6681804b9c6), we get the following 4 colors. I've set the colors up here with their layers screened to see all the possible interactions between them.
@@ -140,10 +144,11 @@ We can see that hydrogen nebulas would be dominated by red at the lowest energy 
 The bottom line is that if you stick with this color spectra, the nebulas will be believable. A rainbow nebula *could* be cool but it would be much cooler if it had a story behind it with gasses that made sense.
 
 ## Nebula Attempts in UE4 ##
+
 ### Middleware ###
 My first port of call was to check out the middleware [TrueSky](http://simul.co/truesky/). From a conversation with them, it sounds like nebulas would be possible, but the functionality isn't built in right now. Since I'm not making **Nebula: The Game**, I'm not interested in spending time hacking around with their source at this point. Maybe they'll surprise me in the new year with an implementation.
 
-### Building On Cloud Example ###
+### Building On The Cloud Example ###
 There's a nice looking cloud particle in the Content Examples Effects map. I started with this, got rid of the motion, maxed out the lifetime and replaced the cloud texture with some perlin noise.
 
 The thing about perlin noise is that you can play with it forever and get lots of interesting stuff. It's a slow process too because every time you change noise values you have to wait for shaders to recompile. At the points where the noise actually looks good in game, the node preview window doesn't show you anything useful. 
