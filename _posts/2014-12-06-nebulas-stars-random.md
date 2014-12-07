@@ -66,7 +66,7 @@ Here's the two side by side, enlarged for example.
 
 Basically, use DiamondGradient to get a pointy looking star. The diamonds need to be about twice as large as the radial to get the same effect. Also, things seem a bit dim, so I'd recommend multiplying a bit to get a true white in order to negate the dimming effect of the gradient.
 
-### Step 3 - Material Misc ###
+## Step 3 - Material Misc ##
 This is a Translucent material right now and I've found that it's important to enable adaptive anti-aliasing. Without this turned on, you kind of lose the stars when the camera moves.
 
 <img src='{{ site.url }}/assets/uploads/2014/12/adaptiveaa.jpg'>
