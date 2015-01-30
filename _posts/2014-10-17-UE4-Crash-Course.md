@@ -99,11 +99,21 @@ Found in FMath namespace
 
 # How to get the current camera? #
 
+From inside HUD:
+
     APlayerController* pc = GetOwningPlayerController();
     AActor *vt = pc->GetViewTarget();
     ACameraActor* camera = Cast<ACameraActor>(vt);
     if (camera) {
         //do stuff
+    }
+
+# How to get the player camera manager? #
+
+    AMyCustomCameraType* camera = Cast<AMyCustomCameraType>(UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0));
+    if (camera)
+    {
+        //...
     }
 
 # What is [ACharacter](https://docs.unrealengine.com/latest/INT/API/Runtime/Engine/GameFramework/ACharacter/index.html)? Why are there camera controls in there? #
