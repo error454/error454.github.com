@@ -16,7 +16,8 @@ I recently did some matinee scenes in UE4 and came away feeling like I was using
 
 What follows is a summary of how I worked around the tool limitations to arrive at a solution that worked for my skillset. One of the end results can be seen below
 
-https://www.youtube.com/watch?v=ToAmkclHzWU&feature=youtu.be
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ToAmkclHzWU" frameborder="0" allowfullscreen></iframe>
+
 <!--more-->
 
 # What Matinee Wants #
