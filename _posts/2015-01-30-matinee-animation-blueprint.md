@@ -51,6 +51,7 @@ There are 3 total components here:
 This can be a blueprint or a skeletal mesh actor, it doesn't matter. This is going to be the visible actor in your matinee sequence. Every time you want to play an animation, you'll instead fire an event from matinee, that event will enable a state in your animation blueprint to enable the desired animation.
 
 To hook up the star, when the matinee starts you need to attach him to the protege via some code or blueprint like:
+
     AttachRootComponentToActor(MatineeActorToMatch, NAME_None, EAttachLocation::SnapToTarget, false);
 
 If you aren't a coder you can skip the rest of this section and move on to the next heading. One thing I wanted is smooth entry into a matinee sequence. When a matinee begins, I don't know where the player character is, they might be facing the wrong direction or slightly off target from where my matinee actor begins. So here is really kind of a full peak at how I'm trying to manage this.
