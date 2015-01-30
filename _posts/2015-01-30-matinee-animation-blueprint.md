@@ -12,9 +12,9 @@ tags:
   - bp
 ---
 
-I recently did some matinee scenes in UE4 and came away feeling like I was using the tools wrong. That's probably because I'm a programmer with no animation skills trying to use tools meant for artists with no programming skills :o Add on top of this a time constraint and you have a somewhat willy nilly solution that I'm about to describe
+I recently did some matinee scenes in UE4 and came away feeling like I was using the tools wrong. That's probably because I'm a programmer with no animation skills trying to use tools meant for artists with no programming skills :o Add on top of this a time constraint and you have a somewhat willy nilly solution that I'm about to describe.
 
-What follows is a summary of how I worked around the tool limitations to arrive at a solution that worked for my skillset. One of the end results can be seen below
+What follows is a summary of how I worked around the tool limitations to arrive at a solution that worked for my skillset. One of the end results can be seen below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ToAmkclHzWU" frameborder="0" allowfullscreen></iframe>
 
