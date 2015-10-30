@@ -15,7 +15,7 @@ tags:
   - shiva
 ---
 
-<script src="http://cdn.stonetrip.com/players/stkobject.js" type="text/javascript"></script>
+<script src="http://cdn.shivaengine.com/players/stkobject.js" type="text/javascript"></script>
 
 <a href='{{ site.url }}/assets/uploads/2014/01/Capture24.jpg'><img src='{{ site.url }}/assets/uploads/2014/01/Capture24-1024x576.jpg' alt='A picture of some cool cartoony 3D models (they look like the alien from bugs bunny) and they&apos;re shooting a totally ridiculous number of bullets all over the screen. I mean the number of bullets is TOTALLY ridiculously awesome!'></a>
 
