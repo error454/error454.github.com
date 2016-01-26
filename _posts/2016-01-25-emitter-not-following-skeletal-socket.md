@@ -20,8 +20,6 @@ tags:
   - component
   
 ---
-# Problem Statement #
-
 There’s a major bug in our project that is exhibited by beam particles that are not correctly emitting from the socket location that the emitter is attached to. The problem has been seen in every version of UE4 going back to 4.5. Although the problem is exhibited using beam particles, my guess is that it has nothing to do with beam particles and more to do with the entire skeletal transform being a frame behind.
 
 The current way to produce the issue is:
