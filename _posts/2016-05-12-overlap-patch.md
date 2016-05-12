@@ -23,7 +23,7 @@ The problem is that when we stream a level in, OnBeginOverlap events don't fire 
 
 It turns out that [this is by design](https://github.com/EpicGames/UnrealEngine/blob/c07c63dcdedb7e8ced9a81dfb864505d5db5afa3/Engine/Source/Runtime/Engine/Private/Level.cpp#L1771). 
 
-Our use case is one where we want those overlaps to trigger, so what to do? I submitted a pull request that provides a flag for AActor (`bGenerateOverlapEventsWhenLoadingLevel`) that allows specifying that we want to trigger overlaps when that actor is streamed in. This isn't an all or nothing type of thing, it's very specific to actors that the player will be overlapping near the entrace of a level, this change is working perfectly for us.
+Our use case is one where we want those overlaps to trigger, so what to do? I submitted [pull request 2379](https://github.com/EpicGames/UnrealEngine/pull/2379) that provides a flag for AActor (`bGenerateOverlapEventsWhenLoadingLevel`) that allows specifying that we want to trigger overlaps when that actor is streamed in. This isn't an all or nothing type of thing, it's very specific to actors that the player will be overlapping near the entrace of a level, this change is working perfectly for us.
 
 As a side note, the curious observer might wonder how level streaming differs from level loading in regards to overlapping actors. The simple answer is that the primary difference between the two is the order of calls to `BeginPlay` and `UpdateOverlaps`.
 
