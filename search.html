@@ -1,4 +1,422 @@
----
-layout: search
-title : Search
----
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Search</title>
+    
+	
+	<meta name="author" content="Zachary Burke">
+	
+	<link rel="stylesheet" href="/assets/themes/Snail/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/main.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/pages/journal.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/team.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/static.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/errors.css">
+    <link rel="stylesheet" href="/assets/themes/Snail/highlightjs/styles/default.css">
+	
+	<link rel="shortcut icon" href="/assets/themes/Snail/img/favicon.ico">
+	
+	<script type="text/javascript" src="/assets/themes/Snail/js/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="/assets/themes/Snail/js/auto_loadmore.js"></script>
+	
+    <script type="text/javascript" src="/assets/themes/Snail/highlightjs/highlight.pack.js"></script>	
+    <script type="text/javascript" src="/assets/themes/Snail/js/search.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script> 
+    
+	<script type="text/javascript">
+      $(document).ready(function ()
+        {
+            hljs.configure({
+              tabReplace: '    '
+            })
+            $('pre').each(function (i, e) { hljs.highlightBlock(e) });
+        });
+	</script>
+	
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+</head>
+<body>
+	<noscript>
+		&amp;lt;div id="no-js"&amp;gt;Please enable JavaScript in your browser to experience / fully&amp;lt;/div&amp;gt;
+	</noscript>
+    <div id="page-container">
+		<div>
+			<nav>
+	<div id="nav-l">
+	</div>
+	<div id="nav-c">
+		<ul id="nav-list" style="width: 700px;">
+			<li id="home"><a href="/">Home</a></li>
+			
+			
+			
+				
+				  
+				
+			 
+				
+				  
+					
+					<li id = "About Me"><a href="/about.html">About Me</a></li>
+					
+				  
+				
+			 
+				
+				  
+					
+					<li id = "Archive"><a href="/archive.html">Archive</a></li>
+					
+				  
+				
+			 
+				
+				  
+				
+			 
+				
+				  
+					
+					<li id = "Categories"><a href="/categories.html">Categories</a></li>
+					
+				  
+				
+			 
+				
+			 
+				
+				  
+				
+			 
+				
+				  
+				
+			 
+				
+				  
+				
+			 
+				
+				  
+					
+					<li id = "Tags"><a href="/tags.html">Tags</a></li>
+					
+				  
+				
+			 
+				
+			 
+				
+			 
+				
+			 
+				
+			 
+				
+			 
+				
+			 
+				
+			 
+				
+			 
+				
+			 
+				
+			 
+			
+			
+		</ul>
+		<form id="nav-search" method="GET" action="/search/">
+			<div id="search-right-pix">
+				<div id="search-left-pix">
+					<div id="search-center-pix">
+						<div id="search-icon-pix"></div>
+						<input id="search-query" name="q" type="text" placeholder="Search" autocomplete="off">
+					</div>
+				</div>
+			</div>
+		</form>
+		
+		
+	</div>
+	<div id="nav-r">
+	</div>
+</nav>
+			<div id="page-content">
+				
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
+
+<div class="large-page-title">
+	<h1>Search </h1>
+	
+</div>
+<style>
+#results {
+	display: none;
+}
+</style>
+<section id="search-results" style="display: none;">
+  <p>Search results</p>
+  <div class="entries">
+  </div>
+</section>
+
+
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
+
+
+			</div>
+			<div class="clearboth pagebottom"></div>
+		</div>
+	</div>
+	<footer>
+	<div class="footer-940">
+		<div class="footer-general-info">
+			© 2014 Zachary Burke.<br><br>
+			Content licensed under:<br>
+			<a class="cc" href="http://creativecommons.org/licenses/by-sa/3.0/">c a b</a><br>
+			<a href = "">About Me</a><br>
+		</div>
+		<div class="footer-col-cont">
+			<div class="footer-nav-col">
+				<h4><a>Categories</a></h4>
+				<ul>
+					
+					
+
+
+  
+     
+    	<li><a href="/categories.html#webos-ref">
+    		webos <span>23</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#pdk-ref">
+    		pdk <span>8</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#android-ref">
+    		android <span>14</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#ares-ref">
+    		ares <span>2</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#graphics-ref">
+    		graphics <span>4</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#iphone-ref">
+    		iphone <span>2</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#wm7-ref">
+    		wm7 <span>1</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#shiva 3d-ref">
+    		shiva 3d <span>27</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#homebrew-ref">
+    		homebrew <span>6</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#personal-ref">
+    		personal <span>1</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#marketplace  publishing-ref">
+    		marketplace  publishing <span>3</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#java-ref">
+    		java <span>2</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#interesting problems at work-ref">
+    		interesting problems at work <span>3</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#game theory-ref">
+    		game theory <span>4</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#ouya-ref">
+    		ouya <span>2</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#tegra 3-ref">
+    		tegra 3 <span>2</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#hacking-ref">
+    		hacking <span>2</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#physx-ref">
+    		physx <span>1</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#ue4-ref">
+    		ue4 <span>1</span>
+    	</a></li>
+    
+  
+
+
+				</ul>
+			</div>
+			<div class="footer-nav-col">
+				<h4><a>Pages</a></h4>
+				<ul>
+					
+					
+					
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/about.html">About Me</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+				</ul>
+			</div>
+			<div class="footer-nav-col">
+				<h4><a>Feed</a></h4>
+				<ul>
+					<li><a href="/atom.xml">Atom Feed</a></li>
+					<li><a href="/rss.xml">RSS Feed</a></li>
+				</ul>
+			</div>
+			<div class="footer-nav-col">
+				<h4><a>Links</a></h4>
+				<ul>
+				
+				</ul>
+			</div>
+			<div class="footer-nav-col">
+				<h4><a href = "">About Me</a></h4>
+				<ul>
+				 
+					<li><a href = "zachary.burke@gmail.com">email</a></li>
+				 
+					<li><a href = "error454">github</a></li>
+				 
+					<li><a href = "error454">twitter</a></li>
+				
+				</ul>
+			</div>
+			<div class="clearboth"></div>
+		</div>
+		<div class="clearboth"></div>
+	</div>
+	<div class="clearboth"></div>
+</footer>
+	
+</body>
+</html>
+
