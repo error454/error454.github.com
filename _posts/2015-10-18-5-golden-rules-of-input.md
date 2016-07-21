@@ -2,7 +2,7 @@
 title: The 5 Golden Rules of Input
 author: error454
 layout: post
-permalink: /2015/10/18/5/golden/rules/of/input
+permalink: /2015/10/18/5/golden/rules/of/input/
 categories:
   - game-theory
   - gamedev

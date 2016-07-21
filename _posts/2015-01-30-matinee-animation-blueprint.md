@@ -2,7 +2,7 @@
 title: Using Animation Blueprints with Matinee
 author: error454
 layout: post
-permalink: /2015/01/30/matinee/animation/blueprint
+permalink: /2015/01/30/matinee/animation/blueprint/
 categories:
   - ue4
 tags:

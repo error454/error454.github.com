@@ -2,7 +2,7 @@
 title: UE4 C++ Code Sleuthing
 author: error454
 layout: post
-permalink: /2016/05/29/ue4/c/sleuthing
+permalink: /2016/05/29/ue4/c/sleuthing/
 categories:
   - ue4
   - c++

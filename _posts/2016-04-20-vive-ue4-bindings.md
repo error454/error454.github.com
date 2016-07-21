@@ -2,7 +2,7 @@
 title: Vive Motion Controller UE4 Bindings
 author: error454
 layout: post
-permalink: /2016/04/20/vive/ue4/bindings
+permalink: /2016/04/20/vive/ue4/bindings/
 categories:
   - ue4
   - vr

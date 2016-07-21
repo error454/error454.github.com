@@ -2,7 +2,7 @@
 title: How to use Perforce in UE4
 author: error454
 layout: post
-permalink: /2014/11/20/perforce/ue4/workflow
+permalink: /2014/11/20/perforce/ue4/workflow/
 categories:
   - perforce
   - ue4

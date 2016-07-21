@@ -2,7 +2,8 @@
 title: Mr. Robot Episode 1 Analysis
 author: error454
 layout: post
-permalink: /2015/08/03/mr/robot/episode/1/analysis
+permalink: /2015/08/03/mr/robot/episode/1/analysis/
+disqus_identifier: 4001101257 
 categories:
   - tv
 tags:

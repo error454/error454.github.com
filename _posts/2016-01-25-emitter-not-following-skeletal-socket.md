@@ -2,7 +2,7 @@
 title: Emitter Not Following Skeletal Socket
 author: error454
 layout: post
-permalink: /2016/01/25/emitter/not/following/skeletal/socket
+permalink: /2016/01/25/emitter/not/following/skeletal/socket/
 categories:
   - ue4
 tags:

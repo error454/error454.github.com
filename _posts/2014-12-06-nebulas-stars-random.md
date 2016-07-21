@@ -2,7 +2,7 @@
 title: Nebulas, Stars, Random Numbers and UE4
 author: error454
 layout: post
-permalink: /2014/12/06/nebulas/stars/random
+permalink: /2014/12/06/nebulas/stars/random/
 categories:
   - nebula
   - star

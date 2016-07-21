@@ -2,7 +2,7 @@
 title: Triggering Overlaps for Level Streaming Actors
 author: error454
 layout: post
-permalink: /2016/05/12/overlap/patch
+permalink: /2016/05/12/overlap/patch/
 categories:
   - ue4
   - c++
