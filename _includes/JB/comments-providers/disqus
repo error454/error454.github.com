@@ -2,7 +2,7 @@
 <script type="text/javascript">
     var disqus_config = function () {
         this.page.url = '{{ site.production_url }}{{ page.url }}';
-        this.page.identifier = '{% if page.disqus_identifier %}{{ page.disqus_identifier}}{% else %}{{ site.production_url }}{{ page.url }}/{% endif %}';
+        this.page.identifier = '{% if page.disqus_identifier %}{{ page.disqus_identifier}}{% else %}{{ site.production_url }}{{ page.permalink }}/{% endif %}';
     };
 
     var disqus_shortname = '{{ site.JB.comments.disqus.short_name }}';
