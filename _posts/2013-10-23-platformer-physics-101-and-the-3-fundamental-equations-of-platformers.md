@@ -38,7 +38,7 @@ With these values, we're able to use the the kinematic equations to make a chara
 As a refresher, the 2 basic equations we'll use are:
 
 <center>
-  <img src="http://s0.wp.com/latex.php?latex=velocity%3Dacceleration%5Ccdot+time&bg=ffffff&fg=000&s=2" alt="velocity=acceleration\cdot time " title="velocity=acceleration\cdot time " class="latex" /><br /></br> <img src="http://s0.wp.com/latex.php?latex=distance%3Dvelocity%5Ccdot+time&bg=ffffff&fg=000&s=2" alt="distance=velocity\cdot time" title="distance=velocity\cdot time" class="latex" /> 
+  <img src="http://s0.wp.com/latex.php?latex=velocity%3Dacceleration%5Ccdot+time&bg=ffffff&fg=000&s=2" alt="velocity=acceleration\cdot time " title="velocity=acceleration\cdot time " class="latex" /><br> <img src="http://s0.wp.com/latex.php?latex=distance%3Dvelocity%5Ccdot+time&bg=ffffff&fg=000&s=2" alt="distance=velocity\cdot time" title="distance=velocity\cdot time" class="latex" /> 
 </center>This would be a typical implementation.
 
 <pre>-- Set Y velocity to the jump velocity
@@ -76,7 +76,9 @@ Which leads us to the first two fundamental equations:
 *   initial jump velocity as a function of gravity and maximum jump height
 
 ###The Derivations
+
 **Equation 1**
+
 Assuming that we are standing on the ground preparing to jump, we start with the kinematic equation <img src="http://s0.wp.com/latex.php?latex=d%3Dv_it+%2B+%5Cdfrac%7B1%7D%7B2%7Dat%5E2+&bg=ffffff&fg=000&s=2" alt="d=v_it + \dfrac{1}{2}at^2 " title="d=v_it + \dfrac{1}{2}at^2 " class="latex" />
 
 Setting initial velocity to zero <img src="http://s0.wp.com/latex.php?latex=d%3D%5Cdfrac%7B1%7D%7B2%7Dat%5E2+&bg=ffffff&fg=000&s=2" alt="d=\dfrac{1}{2}at^2 " title="d=\dfrac{1}{2}at^2 " class="latex" />
@@ -85,6 +87,7 @@ Solving for **a** yields
 <img src="http://s0.wp.com/latex.php?latex=a%3D%5Cdfrac%7B2d%7D%7Bt%5E2%7D+&bg=ffffff&fg=000&s=2" alt="a=\dfrac{2d}{t^2} " title="a=\dfrac{2d}{t^2} " class="latex" />
 
 **Equation 2**
+
 Assuming that we are standing on the ground preparing to jump, we start with the kinematic equation
 <img src="http://s0.wp.com/latex.php?latex=v_f%5E2%3Dv_i%5E2%2B2ad+&bg=ffffff&fg=000&s=2" alt="v_f^2=v_i^2+2ad " title="v_f^2=v_i^2+2ad " class="latex" />
 
@@ -95,6 +98,7 @@ Solving for **v** yields
 <img src="http://s0.wp.com/latex.php?latex=v_f%3D%5Csqrt%7B2ad%7D+&bg=ffffff&fg=000&s=2" alt="v_f=\sqrt{2ad} " title="v_f=\sqrt{2ad} " class="latex" />
 
 ##Early Jump Termination
+
 **Edited 3/5/2014**
 
 As reader Chue points out, the equations below don't work unless **gravity is negative**. This is true and was an oversight on my part. You could redefine the above equation for gravity and just tack a negative sign on it. This also means that the equation for jump velocity is going to yield an imaginary number (square root of a negative number), you can just throw that imaginary part away. I've updated the equations below to show that gravity is being plugged in as a negative number.
@@ -124,6 +128,7 @@ The one caveat with this method is that, depending on your world, you may set a 
           
 
 ##Demo
+
 To prove out the equations and method, I did my best to recreate the physics from Mario 1 inside the ShiVa 3D game engine.  Based on my reverse engineering efforts (see details below) I arrived at the following values:
 * Max Jump Height = 4 units
 * Time to reach max height = 0.44 seconds
@@ -136,13 +141,14 @@ So plugging these into equations 1, 2 and 3 we get
           
 <img src="http://s0.wp.com/latex.php?latex=V_%7BEarlyJumpTermination%7D%3D%5Csqrt%7B18.182%5E2+%2B+2%5Ccdot+-41.322+%284+-+1%29%7D%3D9.091&bg=ffffff&fg=000&s=2" alt="V_{EarlyJumpTermination}=\sqrt{18.182^2 + 2\cdot -41.322 (4 - 1)}=9.091" title="V_{EarlyJumpTermination}=\sqrt{18.182^2 + 2\cdot -41.322 (4 - 1)}=9.091" class="latex" />
           
-Now see it in action, spacebar jumps.
+Now see it in action, spacebar jumps. Well, not anymore since chrome doesn't let us embed stuff like this anymore :( See the [Platformer Physics](https://github.com/error454/ShiVa-Proof-Of-Concept) shiva example on my github.
         
 <script  language="javascript" type="text/javascript">
    stkobject( "800" , "600" , "{{ site.url }}/assets/shiva/PlatformerPhysicsTuned.stk" , null, null , null , null , null , null , 0 , 1 , "<V t='2' n='S3DStartUpOptions.BackgroundColor'>034,034,034</V>" , 0 , 0 , 0 , 0 , 1, null , null , ".png", 0 , 222222,1);
 </script>
         
 ##How I measured Mario Gravity
+
 Starting with Nestopia, I recorded a video of mario jumping.  I then saved that out as an AVI with uncompressed frames.  After pulling that into VLC Media Player, I used the scene filter to save out every frame of the video to a png.
 
 The video was recorded at 50 frames/second which was a bit overkill, but this gave me 0.02 sec/frame.
@@ -164,4 +170,5 @@ And then initial jump velocity is sqrt(2gh) == sqrt(2*41.32*4) == 18.182
 I thought I'd look up the values for Mario's gravity and see if perhaps I could compare my measurements.  I was excited when I found <a href="http://hypertextbook.com/facts/2007/mariogravity.shtml" target="_blank">Acceleration Due to Gravity: Super Mario Brothers</a> until I saw their measurement of the height of mario to be 39 pixels.  Perhaps this could have been due to over or underscan on their TV?  I mean, this value isn't even a power of 2.  Mario is 1616 small and 1632 with a mushroom, everyone knows that!
 
 ##Conclusion
+
 This method may not match the exact jump model that mario uses, but as an approximation, I think it works very well. I've created a <a href="https://docs.google.com/spreadsheet/ccc?key=0AoGqxtUhFBJDdENYbWUyd1NZa3dKRThnTHlyZHVLMnc&usp=sharing" target="_blank">Google Docs template</a> with the above equations built-in. Feel free to make a copy of it to calculate some starting values for your own platformer. Also if you've used the above method or see an issue with implications of the early jump termination method, please leave a comment!
