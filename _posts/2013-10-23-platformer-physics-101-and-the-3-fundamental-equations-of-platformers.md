@@ -75,7 +75,7 @@ Which leads us to the first two fundamental equations:
 *   gravity as a function of the time to reach the top of the jump and maximum jump height.
 *   initial jump velocity as a function of gravity and maximum jump height
 
-###The Derivations
+### The Derivations
 
 **Equation 1**
 
@@ -97,7 +97,7 @@ Setting initial velocity to zero
 Solving for **v** yields
 <img src="http://s0.wp.com/latex.php?latex=v_f%3D%5Csqrt%7B2ad%7D+&bg=ffffff&fg=000&s=2" alt="v_f=\sqrt{2ad} " title="v_f=\sqrt{2ad} " class="latex" />
 
-##Early Jump Termination
+## Early Jump Termination
 
 **Edited 3/5/2014**
 
@@ -127,7 +127,7 @@ The one caveat with this method is that, depending on your world, you may set a 
 <img src="http://s0.wp.com/latex.php?latex=t%3Dtime_%7BToApex%7D+-+%5Cdfrac%7B2%28height_%7BMaxJump%7D+-+height_%7BMinJump%7D%29%7D%7BV_%7Bjump%7D%2BV_%7BEarlyJumpTermination%7D%7D&bg=ffffff&fg=000&s=2" alt="t=time_{ToApex} - \dfrac{2(height_{MaxJump} - height_{MinJump})}{V_{jump}+V_{EarlyJumpTermination}}" title="t=time_{ToApex} - \dfrac{2(height_{MaxJump} - height_{MinJump})}{V_{jump}+V_{EarlyJumpTermination}}" class="latex" />
           
 
-##Demo
+## Demo
 
 To prove out the equations and method, I did my best to recreate the physics from Mario 1 inside the ShiVa 3D game engine.  Based on my reverse engineering efforts (see details below) I arrived at the following values:
 * Max Jump Height = 4 units
@@ -147,7 +147,7 @@ Now see it in action, spacebar jumps. Well, not anymore since chrome doesn't let
    stkobject( "800" , "600" , "{{ site.url }}/assets/shiva/PlatformerPhysicsTuned.stk" , null, null , null , null , null , null , 0 , 1 , "<V t='2' n='S3DStartUpOptions.BackgroundColor'>034,034,034</V>" , 0 , 0 , 0 , 0 , 1, null , null , ".png", 0 , 222222,1);
 </script>
         
-##How I measured Mario Gravity
+## How I measured Mario Gravity
 
 Starting with Nestopia, I recorded a video of mario jumping.  I then saved that out as an AVI with uncompressed frames.  After pulling that into VLC Media Player, I used the scene filter to save out every frame of the video to a png.
 
@@ -169,6 +169,6 @@ And then initial jump velocity is sqrt(2gh) == sqrt(2*41.32*4) == 18.182
 
 I thought I'd look up the values for Mario's gravity and see if perhaps I could compare my measurements.  I was excited when I found <a href="http://hypertextbook.com/facts/2007/mariogravity.shtml" target="_blank">Acceleration Due to Gravity: Super Mario Brothers</a> until I saw their measurement of the height of mario to be 39 pixels.  Perhaps this could have been due to over or underscan on their TV?  I mean, this value isn't even a power of 2.  Mario is 1616 small and 1632 with a mushroom, everyone knows that!
 
-##Conclusion
+## Conclusion
 
 This method may not match the exact jump model that mario uses, but as an approximation, I think it works very well. I've created a <a href="https://docs.google.com/spreadsheet/ccc?key=0AoGqxtUhFBJDdENYbWUyd1NZa3dKRThnTHlyZHVLMnc&usp=sharing" target="_blank">Google Docs template</a> with the above equations built-in. Feel free to make a copy of it to calculate some starting values for your own platformer. Also if you've used the above method or see an issue with implications of the early jump termination method, please leave a comment!
