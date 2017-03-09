@@ -102,11 +102,11 @@ JB :
   # Some JB helpers refer to these paths; change them here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
+  categories_path : /categories
+  tags_path : /tags
   atom_path : /atom.xml
   rss_path : /rss.xml
-  about_path : /about.html
+  about_path : /about
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
