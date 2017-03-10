@@ -20,7 +20,7 @@ tags:
 ---
 Last year I was so frustrated with compile times in UE4 that I hacked together [a script](https://gist.github.com/error454/1eed2db4cce45716c8c5#file-unrealbuildhue-py-L40) that changed the color of one of the lights in my office to let me know when a compile had finished. I also stashed away the compile times in a log file so I could analyze them later.
 
-In the ~6 month period from June 26, 2015 - January 16, 2016, I spent 44.98 hours compiling across a total of 4,660 compiles. This averages to 34.75 seconds/compile but it doesn't account for the time taken to reload UE4 and get back to what I was working on when a hot-reload failed (~25% chance) or when I forgot to check my pointers. This utter frustration with C++ iteration time in UE4 led me to discover a somewhat ridiculously named programming language called Skookum Script.
+In the ~6 month period from June 26, 2015 - January 16, 2016, I spent 44.98 hours compiling across a total of 4,660 compiles. This averages to 34.75 seconds/compile but it doesn't account for the time taken to reload UE4 and get back to what I was working on when a hot-reload failed (~25% chance) or when I forgot to check my pointers. This utter frustration with C++ iteration time in UE4 led me to discover a somewhat ridiculously named programming language called SkookumScript.
 
 All I wanted was to reduce my C++ iteration times with a simple scripting language that I could use in UE4. Instead, I underwent a complete programming paradigm shift. And when you find something this profound and amazing, you just have to share it with others. 
 <!--more-->
@@ -30,7 +30,7 @@ So, if you use Unreal Engine 4 (or a custom C++ engine), grab a hot drink and pr
 
 # Tick
 
-Before we talk about Skookum Script, we need to discuss our friend, the tick. As game developers, we live and die by the tick. Tick is an obvious necessity for everything we do in our game but have you ever stopped to consider how terrible tick is? Jean Simonet masterfully points out in his article [Logic Over Time](http://www.gamasutra.com/blogs/JeanSimonet/20160128/264083/Logic_Over_Time.php), how tick forces us to break up our logic so that it can persist across ticks. This is ultimately a very unnatural way to write logic. I want to look at a simple algorithm to illustrate how tick governs its implementation.
+Before we talk about SkookumScript, we need to discuss our friend, the tick. As game developers, we live and die by the tick. Tick is an obvious necessity for everything we do in our game but have you ever stopped to consider how terrible tick is? Jean Simonet masterfully points out in his article [Logic Over Time](http://www.gamasutra.com/blogs/JeanSimonet/20160128/264083/Logic_Over_Time.php), how tick forces us to break up our logic so that it can persist across ticks. This is ultimately a very unnatural way to write logic. I want to look at a simple algorithm to illustrate how tick governs its implementation.
 
 Imagine a homing missile that uses the following algorithm when fired, here separated into 3 stages of existence.
 
@@ -83,7 +83,7 @@ Now, by looking at the code alone, try to piece together what the original algor
 
 <iframe src="//giphy.com/embed/CTVr5GltEmS76" width="480" height="383" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-There's a better way, an alternative that will change your entire perspective of writing game logic. Here's the actual Skookum Script (Sk) code for this algorithm:
+There's a better way, an alternative that will change your entire perspective of writing game logic. Here's the actual SkookumScript (Sk) code for this algorithm:
 
 ```javascript
 ()
