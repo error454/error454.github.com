@@ -12,7 +12,7 @@ tags:
   - ue4
   - c++
   - sk
-  - skookum script
+  - skookumscript
   - scripting language
   - blueprint
   - compile times
@@ -446,4 +446,4 @@ I'm sure you might have questions or even criticisms. I've included some popular
 
 I didn't even get around to showing how amazingly fast Sk is to iterate on or how useful it is as a super powered command prompt. All of these firing patterns were made in a live running game, where hot-recompiling literally took less than a second. Honestly, breaking the habit of reflexively hitting ESC in-between each prototype is harder than learning the language itself.
 
-Skookum Script is a [free plugin](http://skookumscript.com/download/) available on the Unreal Engine marketplace, I'd recommend giving it a try.
+SkookumScript is a [free plugin](http://skookumscript.com/download/) available on the Unreal Engine marketplace, I'd recommend giving it a try.
