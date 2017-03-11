@@ -26,7 +26,7 @@ All I wanted was to reduce my C++ iteration times with a simple scripting langua
 <!--more-->
 This is a big topic and I can't cover everything in a single article, so this article will cover what I consider to be the 4 pillars of the language. I hope to make this fun and interesting and so am relying more on short code snippets with accompanying short videos to illustrate these 4 pillars.
 
-So, if you use Unreal Engine 4 (or a custom C++ engine), grab a hot drink and prepare yourself. You may shortly feel the fabric of your reality being slowly torn apart along with the urge to resist change, this is a normal part of paradigm shifts, it's just your primitive ego trying to protect itself. Sit on it, contemplate, take time to process, cry if you need to and return when you're prepared.
+So, if you use Unreal Engine 4 (or a custom C++ engine), grab a hot drink and prepare yourself. Soon, you will feel the fabric of your reality being slowly torn apart, and you may be gripped with the urge to resist change. This is a normal part of paradigm shifts - it's just your primitive ego trying to protect itself. Sit on it, contemplate, take time to process, cry if you need to, and return when you're prepared.
 
 # Tick
 
