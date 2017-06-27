@@ -58,13 +58,13 @@ You don't need to be a C++ programmer to read and understand the ideas behind th
 
 ## Top Down Stepwise Refinement
 
-The best way to flesh out an idea is to use Top Down Stepwise Refinement. Identify the high-risk items in your design, these are the things that you're unsure of, an API you've never used, a concept you're unfamiliar with. Tackle these first with small prototypes and when they are known, go back to your design to determine how the high-risk item will fit in the overall design.
+The best way to flesh out an idea is to use [Top Down Stepwise Refinement](https://en.wikibooks.org/wiki/A-level_Computing/AQA/Problem_Solving,_Programming,_Data_Representation_and_Practical_Exercise/Problem_Solving/Top-down_design_and_Step-wise_refinement). Identify the high-risk items in your design, these are the things that you're unsure of, an API you've never used, a concept you're unfamiliar with. Tackle these first with small prototypes and when they are known, go back to your design to determine how the high-risk item will fit in the overall design.
 
 ## 3x Design
 
 When asked to design something, go to the whiteboard or scratch paper first. Sketch out a high-level design. Think carefully about how different actors might communicate with each other. Once your design looks good, move on and think of another way to do the same thing. Do this until you have 3 designs.
 
-The reason for this exercise is because our first idea is rarely our best. By thinking of the problem for a while, we can flesh out these bad ideas so that they can be discarded. By the time the 3rd design is finished, the best path forward should be clear.
+The reason for this exercise is because our first idea is rarely our best. By thinking out the problem for a while, we can flesh out these bad ideas so that they can be discarded. By the time the 3rd design is finished, the best path forward should be clear.
 
 ## Don't Repeat Yourself (DRY)
 
