@@ -38,6 +38,7 @@ Anyone writing blueprints is a programmer. As a programmer, tools and languages 
 	* Loose coupling vs tight coupling
 * Data Structures & Algorithms
     * Structures
+        * Enum
         * Struct
 		* Array
 		* Set
