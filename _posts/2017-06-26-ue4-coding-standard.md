@@ -40,11 +40,11 @@ Anyone writing blueprints is a programmer. As a programmer, tools and languages 
     * Structures
         * Enum
         * Struct
-	* Array
-	* Set
-	* Stack
-	* Queue
-	* Map
+        * Array
+        * Set
+        * Stack
+        * Queue
+        * Map
     * Algorithms
         * Sorting
         * Searching
