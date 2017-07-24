@@ -40,11 +40,11 @@ Anyone writing blueprints is a programmer. As a programmer, tools and languages 
     * Structures
         * Enum
         * Struct
-		* Array
-		* Set
-		* Stack
-		* Queue
-		* Map
+	* Array
+	* Set
+	* Stack
+	* Queue
+	* Map
     * Algorithms
         * Sorting
         * Searching
@@ -120,11 +120,12 @@ The general idea here is to encapsulate the functionality of your actor so that 
 
 Do not put 1-off key binds in blueprints (unless you intend on deleting it before you commit). Every key input should be mapped and accounted for on the project input page. Check first to see if any existing key binds make sense for your needs. 
 
-Why? 
-	• They are obscure/messy
-	• Difficult to track down
-	• By default they consume input, meaning if there is another key event bound to the same key, a 1-off will prevent other key binds from receiving input
-	• They don't use the binding system
+Why?
+
+* They are obscure/messy
+* Difficult to track down
+* By default they consume input, meaning if there is another key event bound to the same key, a 1-off will prevent other key binds from receiving input
+* They don't use the binding system
 
 ## Functions, Node Size & Readability
 
