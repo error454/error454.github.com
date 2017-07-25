@@ -57,6 +57,7 @@ I'd recommend configuring a typemap for your project so that the auto-generated 
 
 # SkookumScript Workflow
 
+If you are working with SkookumScript code directly then you will need to configure the SkookumScript IDE for P4. Once configured, the IDE will automatically check-out and add files to the default changelist. You simply need to push your changes when finished. If you've made changes without being configured for P4 then you will need to manually reconcile the `Scripts/Project` directory.
 
 # Blueprint Workflow
 
