@@ -51,8 +51,8 @@ The content in this folder is also automatically generated and managed by the Sk
 
 I'd recommend configuring a typemap for your project so that the auto-generated files are not read-only. As an example, the typemap entries for SpaceInvaders might look like:
 
-```text+w //SpaceInvaders/Scripts/Project-Generated-BP/...```
-```text+w //SpaceInvaders/Scripts/Project-Generated-C++/...```
+* ```text+w //SpaceInvaders/Scripts/Project-Generated-BP/...```
+* ```text+w //SpaceInvaders/Scripts/Project-Generated-C++/...```
 
 
 # Blueprint Workflow
