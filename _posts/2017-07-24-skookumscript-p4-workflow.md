@@ -55,6 +55,9 @@ I'd recommend configuring a typemap for your project so that the auto-generated 
 * ```text+w //SpaceInvaders/Scripts/Project-Generated-C++/...```
 
 
+# SkookumScript Workflow
+
+
 # Blueprint Workflow
 
 When working in blueprints, you need to keep an eye on the `Project-Generated-BP` folder. Any time you add a new function or variable to your BP, the auto-generated contents for that BP will change in `Project-Generated-BP`. 
@@ -67,6 +70,8 @@ Once you're ready to check your BP changes in, the easiest way to find/grab the 
 # C++ Workflow
 
 Once you've added new C++, you will need to keep the `Project-Generated-C++` folder in sync. By default these days, this folder is only a single file so it should be easy to keep this updated. Obviously, make sure you pull from P4 before you compile and check-in so that you don't wipe out other C++ changes that might have snuck in after your last pull.
+
+Changes made in C++ might also necessitate changes to various Blueprints. These blueprints will need to be opened and compiled in the editor to make sure that the auto-generated BP contents are updated. Often when working in C++ you will also need to follow the Blueprint workflow.
 
 Additionally, if your project is setup where you check in your editor binary to the repo e.g. `Binaries/Win64/UE4Editor-ProjectName.dll` then you will also need to check-in the following additional files with any C++ change:
 
