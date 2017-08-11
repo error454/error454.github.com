@@ -83,8 +83,6 @@ Be sure that you configure the SkookumScript IDE for Source Control. Once config
 
 You simply need to push your changes when finished. If you've made changes without being configured for P4 then you may need to manually reconcile the necessary folders.
 
-<img src='{{ site.url }}/assets/uploads/2017/07/reconcile.jpg'>
-
 # Workflow for Blueprints
 
 When SkookumScript is enabled in a project and you are working with blueprints, things will be automatically generated under the hood in the `Project-Generated-BP` folder. In the latest versions of SkookumScript, the SkookumScript Plugin automatically checks out/adds these auto-generated files to your default changelist. You will want to make sure you have Unreal Engine configured for source control and that you are connected to P4 with an active session.
