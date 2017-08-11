@@ -43,7 +43,7 @@ When you create new SkookumScript functionality (scripts and classes), those fil
 
 ### Project-Generated-BP
 
-The content in this folder is automatically generated and managed by the SkookumScript IDE. Generation occurs when a blueprint is loaded/compiled in the Unreal Engine editor. Make sure you have the SkookumScript IDE connected to P4 so that the contents here get managed automatically.
+The content in this folder is automatically generated and managed by the SkookumScript Plugin. Generation occurs when a blueprint is loaded/compiled in the Unreal Engine editor. Make sure you have Unreal Engine connected to P4 so that the contents here get managed automatically.
 
 ### Project-Generated-C++
 
@@ -79,7 +79,7 @@ In addition, you may want to add a P4 Typemap for the ```Project-Generated-C++``
 
 # Workflow for SkookumScript Code
 
-It's really important that you configure the SkookumScript IDE for Source Control, **even if you aren't writing SkookumScript**! Once configured, the IDE will automatically check-out and add files to the default changelist as you work directly in SkookumScript.
+Be sure that you configure the SkookumScript IDE for Source Control. Once configured, the IDE will automatically check-out and add files to the default changelist as you work directly in SkookumScript.
 
 You simply need to push your changes when finished. If you've made changes without being configured for P4 then you may need to manually reconcile the necessary folders.
 
@@ -87,7 +87,7 @@ You simply need to push your changes when finished. If you've made changes witho
 
 # Workflow for Blueprints
 
-When SkookumScript is enabled in a project and you are working with blueprints, things will be automatically generated under the hood in the `Project-Generated-BP` folder. In the latest versions of SkookumScript, the SkookumScript IDE automatically checks out/adds these auto-generated files to your default changelist. So you will want to make sure you have the IDE configured for source control and that you are connected to P4 with an active session.
+When SkookumScript is enabled in a project and you are working with blueprints, things will be automatically generated under the hood in the `Project-Generated-BP` folder. In the latest versions of SkookumScript, the SkookumScript Plugin automatically checks out/adds these auto-generated files to your default changelist. You will want to make sure you have Unreal Engine configured for source control and that you are connected to P4 with an active session.
 
 Any time you add a new function or variable to your BP, the auto-generated contents for that BP will change in `Project-Generated-BP`. Once you're ready to check your BP changes in, be sure to check your default changelist and include any `Project-Generated-BP` changes that are relevant. 
 
